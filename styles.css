@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.conteneur {
+    margin: 40px;
+    background-color: transparent;
+}
+
+.cadre {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contenu {
+    width: 300px;
+    font-family: Outfit;
+    text-align: center;
+}
+
+.contenu img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.contenu h1 {
+    margin-top:20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contenu p {
+    color: lightgrey;
+    font-size: 15px;
+}
